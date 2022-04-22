@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220422115754">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<div class="preloader" style="position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index: 20;display: flex;align-items: center;justify-content: center;background-color: #fff;">
+		<img src="img/icons/preloader-box.svg" alt="">
+	</div>
+	<div class="wrapper">
+		<header class="header" data-scroll-show>
+			<div class="header__container">
+				<div class="header__nav">
+					<a href="" class="header__logo"><img src="img/header/logo.svg" alt="Ringo"></a>
+					<div class="header__menu menu" data-da=".header__container, 767.8">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#/" class="menu__link" data-goto-speed="1000" data-goto="#directions">Направления</a></li>
+								<li class="menu__item"><a href="#/" class="menu__link" data-goto-speed="1000" data-goto="#about">О
+										компании</a></li>
+								<li class="menu__item"><a href="#/" class="menu__link" data-goto-speed="1000" data-goto="#dignity">Достоинства</a></li>
+								<li class="menu__item"><a href="#/" class="menu__link" data-goto-speed="1000" data-goto="#stages">Этапы работы</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__contact" data-da=".menu__body, 550">
+					<div class="header__socials">
+						<a href="#/" class="header__social _icon-instagram"></a>
+						<a href="#/" class="header__social _icon-facebook"></a>
+					</div>
+					<a href="tel:+380676615415" class="header__phone _icon-phone">+380676615415</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container hero__container_wide">
+					<div class="hero-slider">
+						<div class="hero-slider__swiper">
+							<div class="hero-slider__slide" data-swiper-autoplay="5000">
+								<div class="hero__content">
+									<h1 class="hero__title title">
+										<span class="title__line-parent"><span class="title__line-span">производcтво</span></span>
+										<span class="title__line-parent"><span class="title__line-span">мебели</span></span>
+									</h1>
+									<div class="hero__text">Мы производим комплексное изготовление корпусной мебели для жилых и
+										коммерческих
+										помещений, обеспечим Вас качественным мебельным продуктом собственного производства.</div>
+									<a href="#/" data-popup=".popup-discuss" class="hero__button button">Обсудить проект</a>
+								</div>
+								<div class="hero__image-ibg hero__image-ibg_1">
+									<picture><source data-srcset="img/main-block/image1.webp" type="image/webp"><img src="#" data-src="img/main-block/image1.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="hero-slider__slide">
+								<div class="hero__content">
+									<h2 class="hero__title hero__title_wide title">
+										<span class="title__line-parent"><span class="title__line-span">комплексная</span></span>
+										<span class="title__line-parent"><span class="title__line-span">меблировка </span></span>
+										<span class="title__line-parent"><span class="title__line-span">интерьеров </span></span>
+									</h2>
+									<div class="hero__text">Мы созданы для выполнения объектных задач комплексной меблировки
+										жилых и коммерческих помещений.
+										Наш коллектив нацелен на результат -
+										своевременно реализовать проект на самом высоком уровне. Мы обеспечиваем ваше спокойствие
+										и берем на себя решение любых задач.
+									</div>
+									<a href="#/" data-popup=".popup-discuss" class="hero__button button">Обсудить проект</a>
+								</div>
+								<div class="hero__image-ibg hero__image-ibg_2">
+									<picture><source data-srcset="img/main-block/image2.webp" type="image/webp"><img src="#" data-src="img/main-block/image2.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="hero-slider__slide">
+								<div class="hero__content">
+									<h2 class="hero__title title">
+										<span class="title__line-parent"><span class="title__line-span">Дизайн</span></span>
+										<span class="title__line-parent"><span class="title__line-span">Интерьера </span></span>
+									</h2>
+									<div class="hero__text">В дизайне мы сочетаем стильные идеи с практической эргономикой и
+										возможностью реализовать точно визуализацию.
+										Наш интерьер – это ваше индивидуальное пространство, зона комфорта в жизни и работе.</div>
+									<a href="#/" data-popup=".popup-discuss" class="hero__button button">Обсудить проект</a>
+								</div>
+								<div class="hero__image-ibg hero__image-ibg_3">
+									<picture><source data-srcset="img/main-block/image3.webp" type="image/webp"><img src="#" data-src="img/main-block/image3.jpg" alt=""></picture>
+								</div>
+							</div>
+						</div>
+						<div class="hero__controll">
+							<div class="hero__arrows">
+								<div class="hero__button-prev _icon-arrow-prev"></div>
+								<div class="hero__button-next _icon-arrow-next"></div>
+							</div>
+							<div class="hero__pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="directions" id="directions">
+				<div class="directions__container">
+					<h2 class="directions__title title">
+						<span class="title__line-parent">
+							<span class="title__line-span">Основные </span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span">направления </span>
+						</span>
+
+					</h2>
+					<div class="directions__items">
+						<article class="directions__item item-direction">
+							<div class="item-direction__num">01</div>
+							<h3 class="item-direction__title">Дизайн интерьера</h3>
+							<div class="item-direction__image-ibg">
+								<picture><source data-srcset="img/directions/image1.webp" type="image/webp"><img src="#" data-src="img/directions/image1.jpg" alt=""></picture>
+							</div>
+						</article>
+						<article class="directions__item item-direction">
+							<div class="item-direction__num">02</div>
+							<h3 class="item-direction__title">Производство мебели</h3>
+							<div class="item-direction__image-ibg">
+								<picture><source data-srcset="img/directions/image2.webp" type="image/webp"><img src="#" data-src="img/directions/image2.jpg" alt=""></picture>
+							</div>
+						</article>
+						<article class="directions__item item-direction">
+							<div class="item-direction__num">03</div>
+							<h3 class="item-direction__title">Комплексная меблировка</h3>
+							<div class="item-direction__image-ibg">
+								<picture><source data-srcset="img/directions/image3.webp" type="image/webp"><img src="#" data-src="img/directions/image3.jpg" alt=""></picture>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<h2 class="services__title title title_white">
+						<span class="title__line-parent">
+							<span class="title__line-span">Мы </span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span">обеспечим</span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span">вас </span>
+						</span>
+					</h2>
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon1.svg" alt=""></div>
+
+							<p class="item-services__label">Мебелью</p>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon2.svg" alt="">
+							</div>
+							<p class="item-services__label">Освещением</p>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon3.svg" alt="">
+							</div>
+							<p class="item-services__label">Бытовой техникой</p>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon4.svg" alt=""></div>
+							<p class="item-services__label">Дверями</p>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon5.svg" alt=""></div>
+							<p class="item-services__label">Стеновыми панелями и
+								напольным покрытием</p>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon-ibg"><img src="#" data-src="img/services/icon6.svg" alt="">
+							</div>
+							<p class="item-services__label">Проектированием</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about" id="about">
+				<div class="about__container">
+					<h3 class="about__title">Проект Ринго Украина – создан выполнять объектные задачи комплексной меблировки
+						жилых и коммерческих помещений.
+					</h3>
+					<div class="about__items">
+						<div class="about__item">
+							<p>
+								Наш коллектив нацелен на результат – своевременно реализовать проект на самом высоком уровне. Мы
+								обеспечиваем спокойствие заказчиков.
+							</p>
+						</div>
+						<div class="about__item">
+							<p>
+								Ринго – лучший подрядчик прораба, дизайнера, проект-менеджера или персональный помощник
+								владельца
+								бизнеса, квартиры или салона.
+							</p>
+						</div>
+					</div>
+					<div class="about__image-ibg about__image-ibg_left">
+						<picture><source data-srcset="img/about/image1.webp" type="image/webp"><img src="#" data-src="img/about/image1.jpg" alt=""></picture>
+						<div class="about__cover"></div>
+					</div>
+					<div class="about__image-ibg about__image-ibg_right">
+						<picture><source data-srcset="img/about/image2.webp" type="image/webp"><img src="#" data-src="img/about/image2.jpg" alt=""></picture>
+						<div class="about__cover"></div>
+					</div>
+				</div>
+			</section>
+			<section class="dignity " id="dignity">
+				<div class="dignity__container">
+					<h2 class="dignity__title title">
+						<span class="title__line-parent">
+							<span class="title__line-span">Наши</span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span">преимущества</span>
+						</span>
+
+					</h2>
+					<ol class="dignity__items">
+						<li class="dignity__item item-dignity">
+							<div class="item-dignity__content">
+								<h3 class="item-dignity__title">Мобильность</h3>
+								<div class="item-dignity__desc">Проводим встречи на объектах в уютных заведениях Киева</div>
+							</div>
+							<div class="item-dignity__image">
+								<picture><source data-srcset="img/dignity/image1.webp" type="image/webp"><img src="#" data-src="img/dignity/image1.jpg" alt=""></picture>
+							</div>
+						</li>
+						<li class="dignity__item item-dignity">
+							<div class="item-dignity__content">
+								<h3 class="item-dignity__title">Надежность</h3>
+								<div class="item-dignity__desc">Система нашей работы сосредоточена на качестве и сроках
+									завершения проекта</div>
+							</div>
+							<div class="item-dignity__image">
+								<picture><source data-srcset="img/dignity/image2.webp" type="image/webp"><img src="#" data-src="img/dignity/image2.jpg" alt=""></picture>
+							</div>
+						</li>
+						<li class="dignity__item item-dignity">
+							<div class="item-dignity__content">
+								<h3 class="item-dignity__title">Качество</h3>
+								<div class="item-dignity__desc">Производим исключительно из проверенных европейских брендов
+								</div>
+							</div>
+							<div class="item-dignity__image">
+								<picture><source data-srcset="img/dignity/image3.webp" type="image/webp"><img src="#" data-src="img/dignity/image3.jpg" alt=""></picture>
+							</div>
+						</li>
+						<li class="dignity__item item-dignity">
+							<div class="item-dignity__content">
+								<h3 class="item-dignity__title">Профессионализм
+								</h3>
+								<div class="item-dignity__desc">Наша команда – это клуб профессионалов, объединенных в одной
+									компании</div>
+							</div>
+							<div class="item-dignity__image">
+								<picture><source data-srcset="img/dignity/image4.webp" type="image/webp"><img src="#" data-src="img/dignity/image4.jpg" alt=""></picture>
+							</div>
+						</li>
+						<li class="dignity__item item-dignity">
+							<div class="item-dignity__content">
+								<h3 class="item-dignity__title">Выгодность </h3>
+								<div class="item-dignity__desc">Мы отказались от шоу-рума и офиса в пользу стоимости и
+									мобильности.</div>
+							</div>
+							<div class="item-dignity__image">
+								<picture><source data-srcset="img/dignity/image5.webp" type="image/webp"><img src="#" data-src="img/dignity/image5.jpg" alt=""></picture>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container questions__container_med">
+					<div class="questions__content">
+						<div class="questions__container ">
+							<div class="questions__body">
+								<div class="questions__titles">
+									<h2 class="questions__title title title_white">
+										<span class="title__line-parent">
+											<span class="title__line-span">Обсудим</span>
+										</span>
+										<span class="title__line-parent">
+											<span class="title__line-span">ваш</span>
+										</span>
+										<span class="title__line-parent">
+											<span class="title__line-span">проект?</span>
+										</span>
+									</h2>
+									<div class="questions__subtitle">Заполните форму и в ближайшее время мы свяжемся с вами!
+									</div>
+								</div>
+								<form class="questions__form">
+									<div class="questions__input-wrapper">
+										<input autocomplete="off" type="text" data-required="name" data-validate name="form[name]" placeholder="Имя" class="questions__input">
+									</div>
+									<div class="questions__input-wrapper">
+										<input autocomplete="off" type="tel" id="tel" name="form[phone-number]" placeholder="Номер телефона" data-validate data-required="phone" class="questions__input">
+									</div>
+									<div class="questions__file-input ">
+										<input class="questions__file" type="file" name="form[file]" id="file-input">
+										<label class="questions__file-label" for="file-input">Прикрепить проект</label>
+									</div>
+									<button type="submit" class="questions__button button ">Отправить</button>
+									<div class="questions__agreement">
+										<input type="checkbox" class="questions__checkbox" data-error="Подтвердите для продолжения" data-required="checkbox" data-validate name="agreement" id="check1">
+										<label for="check1" class="questions__label">Даю согласие на обработку персональных
+											данных</label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="questions__image-ibg">
+						<picture><source data-srcset="img/questions/image1.webp" type="image/webp"><img src="#" data-src="img/questions/image1.jpg" alt=""></picture>
+					</div>
+				</div>
+			</section>
+			<section class="stages" id="stages">
+				<div class="stages__container">
+					<h2 class="stages__title title">
+						<span class="title__line-parent">
+							<span class="title__line-span">Этапы</span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span">работы</span>
+						</span>
+
+					</h2>
+					<div class="stages__items">
+						<article class="stages__item item-stages">
+							<div class="item-stages__num">
+								01
+							</div>
+							<h3 class="item-stages__title">
+								Подписание договора
+							</h3>
+							<p class="item-stages__text">
+								Определяемся с бюджетом, материалами и фурнитурой.
+								Вносим правки в проект,
+								подписываем пакет документов.
+							</p>
+						</article>
+						<article class="stages__item item-stages">
+							<div class="item-stages__num">
+								02
+							</div>
+							<h3 class="item-stages__title">
+								Изготовление
+							</h3>
+							<p class="item-stages__text">
+								После подписания договора и определения сроков команда Ринго приступает к
+								самому интересному – производству!
+							</p>
+						</article>
+						<article class="stages__item item-stages">
+							<div class="item-stages__num">
+								03
+							</div>
+							<h3 class="item-stages__title">
+								Установка
+							</h3>
+							<p class="item-stages__text">
+								По готовности производства приступаем к монтажу на объекте. В оговоренное время выполняем
+								доставку и монтаж.
+							</p>
+						</article>
+						<article class="stages__item item-stages">
+							<div class="item-stages__num">
+								04
+							</div>
+							<h3 class="item-stages__title">
+								Новоселье
+							</h3>
+							<p class="item-stages__text">
+								По окончании делаем проверку и подписываем акт окончания работ.
+							</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="in-work" id="in-work">
+				<div class="in-work__container">
+					<h2 class="in-work__title title">
+						<span class="title__line-parent">
+							<span class="title__line-span">Сейчас в</span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span"> работе</span>
+						</span>
+					</h2>
+				</div>
+				<div class="in-work__container in-work__container_wide">
+					<div class="in-work-slider">
+						<div class="in-work-slider__swiper">
+							<div class="in-work-slider__slide slide-in-work">
+								<div class="slide-in-work__image-ibg">
+									<picture><source data-srcset="img/in-work/image2.webp" type="image/webp"><img src="#" data-src="img/in-work/image2.jpg" alt=""></picture>
+									<div class="slide-in-work__cover"></div>
+								</div>
+								<div class="slide-in-work__text">
+									<h3 class="slide-in-work__title">Квартира ЖК Медовий</h3>
+									<div class="slide-in-work__stage">3 этап</div>
+								</div>
+							</div>
+							<div class="in-work-slider__slide slide-in-work">
+								<div class="slide-in-work__image-ibg">
+									<picture><source data-srcset="img/in-work/image1.webp" type="image/webp"><img src="#" data-src="img/in-work/image1.jpg" alt=""></picture>
+									<div class="slide-in-work__cover"></div>
+								</div>
+								<div class="slide-in-work__text">
+									<h3 class="slide-in-work__title">Квартира ЖК Новин</h3>
+									<div class="slide-in-work__stage">4 этап</div>
+								</div>
+							</div>
+							<div class="in-work-slider__slide slide-in-work">
+								<div class="slide-in-work__image-ibg">
+									<picture><source data-srcset="img/in-work/image2.webp" type="image/webp"><img src="#" data-src="img/in-work/image2.jpg" alt=""></picture>
+									<div class="slide-in-work__cover"></div>
+								</div>
+								<div class="slide-in-work__text">
+									<h3 class="slide-in-work__title">Квартира ЖК Европейский</h3>
+									<div class="slide-in-work__stage">2 этап</div>
+								</div>
+							</div>
+						</div>
+						<div class="in-work-slider__arrow-prev _icon-arrow-prev"></div>
+						<div class="in-work-slider__arrow-next _icon-arrow-next"></div>
+						<div class="in-work-slider__pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="gifts">
+				<div class="gifts__container">
+					<div class="gifts__items">
+						<a href="#/" class="gifts__item item-gifts item-gifts_left">
+							<div class="item-gifts__image-ibg">
+								<picture><source data-srcset="img/gifts/image1.webp" type="image/webp"><img src="#" data-src="img/gifts/image1.png" alt=""></picture>
+							</div>
+							<div class="item-gifts__label">Подарок</div>
+						</a>
+						<div class="gifts__item item-gifts item-gifts_center">
+							<h2 class="item-gifts__title title">
+								<span class="title__line-parent">
+									<span class="title__line-span">Ринго</span>
+								</span>
+								<span class="title__line-parent">
+									<span class="title__line-span"> раздает</span>
+								</span>
+								<span class="title__line-parent">
+									<span class="title__line-span"> подарки!</span>
+								</span>
+							</h2>
+							<div class="item-gifts__subtitle">При заказе к новому году, получи ценный подарок для комфорта
+							</div>
+							<a href="#/" class="item-gifts__button button" data-popup=".popup-gifts">Хочу подарок</a>
+						</div>
+						<a href="#/" class="gifts__item item-gifts item-gifts_right">
+							<div class="item-gifts__image-ibg">
+								<picture><source data-srcset="img/gifts/image2.webp" type="image/webp"><img src="#" data-src="img/gifts/image2.png" alt=""></picture>
+							</div>
+							<div class="item-gifts__label">Подарок</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="partners" id="partners">
+				<div class="partners__container">
+					<h2 class="partners__title title">
+
+						<span class="title__line-parent">
+							<span class="title__line-span">Наши</span>
+						</span>
+						<span class="title__line-parent">
+							<span class="title__line-span"> партнеры</span>
+						</span>
+					</h2>
+					<div class="partners-slider">
+						<div class="partners-slider__swiper">
+							<div class="partners-slider__slide">
+								<div class="partners-slider__logo">
+									<img src="#" data-src="img/partners/image1.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__slide">
+								<div class="partners-slider__logo">
+									<img src="#" data-src="img/partners/image2.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__slide">
+								<div class="partners-slider__logo">
+									<img src="#" data-src="img/partners/image3.svg" alt="">
+								</div>
+							</div>
+							<div class="partners-slider__slide">
+								<div class="partners-slider__logo">
+									<img src="#" data-src="img/partners/image4.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="partners-slider__controll">
+							<div class="partners-slider__arrow-prev _icon-arrow-prev"></div>
+							<div class="partners-slider__arrow-next _icon-arrow-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="questions ">
+				<div class="questions__container questions__container_med">
+					<div class="questions__content">
+						<div class="questions__container ">
+							<div class="questions__body">
+								<div class="questions__titles">
+									<h2 class="questions__title title title_white">
+										<span class="title__line-parent">
+											<span class="title__line-span">Остались</span>
+										</span>
+										<span class="title__line-parent">
+											<span class="title__line-span"> вопросы?</span>
+										</span>
+									</h2>
+									<div class="questions__subtitle">Получи бесплатную консультацию менеджера и просчет проекта
+									</div>
+								</div>
+								<form class="questions__form">
+									<div class="questions__input-wrapper">
+										<input autocomplete="off" type="text" data-required="name" data-validate name="form[name]" placeholder="Имя" class="questions__input">
+									</div>
+									<div class="questions__input-wrapper">
+										<input autocomplete="off" type="tel" id="tel1" name="form[phone-number]" placeholder="Номер телефона" data-validate data-required="phone" class="questions__input">
+									</div>
+									<button type="submit" class="questions__button button ">Отправить</button>
+									<div class="questions__agreement">
+										<input type="checkbox" class="questions__checkbox" data-error="Подтвердите для продолжения" data-required="checkbox" data-validate name="agreement" id="check">
+										<label for="check" class="questions__label">Даю согласие на обработку персональных
+											данных</label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="questions__image-ibg">
+						<picture><source data-srcset="img/questions/image2.webp" type="image/webp"><img src="#" data-src="img/questions/image2.jpg" alt=""></picture>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__visit">
+						<a href="#/" class="footer__logo"><img src="img/header/logo.svg" alt="ringo"></a>
+						<div class="footer__links">
+							<span>Соцсети:</span>
+							<div class="footer__socials">
+								<a href="#/" class="footer__inst _icon-instagram"></a>
+								<a href="#/" class="footer__fb _icon-facebook"></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__menu menu-footer">
+						<nav class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#directions">Основные
+										направления</a></li>
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#about">О компании</a>
+								</li>
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#dignity">Достоинства</a></li>
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#stages">Этапы
+										работы</a></li>
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#in-work">Сейчас в
+										работе</a></li>
+								<li class="menu-footer__item"><a href="#/" class="menu-footer__link" data-goto-speed="1000" data-goto="#partners">Стань
+										партнером</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:+380676615415" class="footer__phone-number _icon-phone">+380 67661 5415</a>
+						<a href="#/" class="footer__button button" data-popup=".popup-partners">На кофе с менеджером!</a>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<h3 class="footer__label">Бренды комплектующих</h3>
+					<div class="footer__brands">
+						<div class="footer__brand"><img src="img/footer/icon1.svg" alt="franke"></div>
+						<div class="footer__brand"><img src="img/footer/icon2.svg" alt="hafele"></div>
+						<div class="footer__brand"><img src="img/footer/icon3.svg" alt="egger"></div>
+						<div class="footer__brand"><img src="img/footer/icon4.svg" alt="linken"></div>
+						<div class="footer__brand"><img src="img/footer/icon5.svg" alt="inoxa"></div>
+						<div class="footer__brand"><img src="img/footer/icon6.svg" alt="tree"></div>
+						<div class="footer__brand"><img src="img/footer/icon7.svg" alt="cleaf"></div>
+						<div class="footer__brand"><img src="img/footer/icon8.svg" alt="samsung"></div>
+						<div class="footer__brand"><img src="img/footer/icon9.svg" alt="blum"></div>
+					</div>
+				</div>
+				<div class="footer__copyright">© 2021 Ringo</div>
+			</div>
+		</footer>
+	</div>
+	<div aria-hidden="true" class="popup-discuss">
+		<div class="popup-discuss__wrapper popup__wrapper">
+			<div class="popup-discuss__content popup__content">
+				<button data-close type="button" class="popup-discuss__close"><img src="img/icons/close.svg" alt=""></button>
+				<div class="popup-discuss__text">
+					<div class="popup-discuss__title">Обсудим ваш проект?</div>
+					<div class="popup-discuss__subtitle">Заполните форму и в ближайшее время мы свяжемся с вами!</div>
+					<form data-dev class="popup-discuss__form" data-popup-message=".popup-discuss-send">
+						<div class="popup-discuss__input-wrapper">
+							<input autocomplete="off" type="text" data-required="name" data-validate name="form[name]" placeholder="Имя" class="popup-discuss__input">
+						</div>
+						<div class="popup-discuss__input-wrapper">
+							<input autocomplete="off" type="tel" id="tel-discuss" name="form[phone-number]" placeholder="Номер телефона" data-validate data-required="phone" class="popup-discuss__input">
+						</div>
+						<button class="popup-discuss__button button" type="submit">Отправить</button>
+						<div class="popup-discuss__agreement">
+							<input type="checkbox" class="popup-discuss__checkbox" data-error="Подтвердите для продолжения" data-required="checkbox" id="check-popup-discuss">
+							<label for="check-popup-discuss" class="popup-discuss__label">Даю согласие на обработку персональных
+								данных</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div aria-hidden="true" class="popup-discuss popup-discuss-send">
+		<div class="popup-discuss__wrapper popup__wrapper">
+			<div class="popup-discuss__content popup__content">
+				<div class="popup-discuss__text">
+					<div class="popup-discuss__title">Благодарим!</div>
+					<div class="popup-discuss__subtitle">Ваша заявка успешно отправлена</div>
+					<button data-close class="popup-discuss__button button" type="submit">Ок</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="popup-partners">
+		<div class="popup-partners__wrapper popup__wrapper">
+			<div class="popup-partners__content popup__content">
+				<button data-close type="button" class="popup-partners__close"><img src="img/icons/close.svg" alt=""></button>
+				<div class="popup-partners__text">
+					<div class="popup-partners__title">Хотите стать нашим партнером?</div>
+					<div class="popup-partners__subtitle">Заполните форму и мы свяжемся и обсудим с вами все детали</div>
+					<form data-dev class="popup-partners__form" data-popup-message=".popup-partners-send">
+						<div class="popup-partners__input-wrapper">
+							<input autocomplete="off" type="text" data-required="name" data-validate name="form[name]" placeholder="Имя" class="popup-partners__input">
+						</div>
+						<div class="popup-partners__input-wrapper">
+							<input autocomplete="off" type="tel" id="tel-partners" name="form[phone-number]" placeholder="Номер телефона" data-validate data-required="phone" class="popup-partners__input">
+						</div>
+						<textarea class="popup-partners__input popup-partners__input_textarea" name="form[info]" placeholder="Коротко о себе"></textarea>
+
+						<button class="popup-partners__button button" type="submit">Отправить</button>
+						<div class="popup-partners__agreement">
+							<input type="checkbox" class="popup-partners__checkbox" data-error="Установите флажок для продолжения" data-required="checkbox" id="check-popup-partners">
+							<label for="check-popup-partners" class="popup-partners__label">Даю согласие на обработку персональных
+								данных</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div aria-hidden="true" class="popup-partners popup-partners-send">
+		<div class="popup-partners__wrapper popup__wrapper">
+			<div class="popup-partners__content popup__content">
+				<div class="popup-partners__text">
+					<div class="popup-partners__title">Благодарим!</div>
+					<div class="popup-partners__subtitle">Ваша заявка успешно отправлена</div>
+					<button data-close class="popup-partners__button button" type="submit">Ок</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" class="popup-gifts">
+		<div class="popup-gifts__wrapper popup__wrapper">
+			<div class="popup-gifts__content popup__content">
+				<button data-close type="button" class="popup-gifts__close"><img src="img/icons/close.svg" alt=""></button>
+				<div class="popup-gifts__text">
+					<div class="popup-gifts__title">Хотите получить подарок?</div>
+					<div class="popup-gifts__subtitle">Заполните форму, и мы свяжемся и расскажем об условиях акции</div>
+					<form data-dev class="popup-gifts__form" data-popup-message=".popup-gifts-send">
+						<div class="popup-gifts__input-wrapper">
+							<input autocomplete="off" type="text" data-required="name" data-validate name="form[name]" placeholder="Имя" class="popup-gifts__input">
+						</div>
+						<div class="popup-gifts__input-wrapper">
+							<input autocomplete="off" type="tel" id="tel-gifts" name="form[phone-number]" placeholder="Номер телефона" data-validate data-required="phone" class="popup-gifts__input">
+						</div>
+						<button class="popup-gifts__button button" type="submit">Отправить</button>
+						<div class="popup-gifts__agreement">
+							<input type="checkbox" class="popup-gifts__checkbox" data-error="Установите флажок для продолжения" data-required="checkbox" id="check-popup-gifts">
+							<label for="check-popup-gifts" class="popup-gifts__label">Даю согласие на обработку персональных
+								данных</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div aria-hidden="true" class="popup-gifts popup-gifts-send">
+		<div class="popup-gifts__wrapper popup__wrapper">
+			<div class="popup-gifts__content popup__content">
+				<div class="popup-gifts__text">
+					<div class="popup-gifts__title">Наш специалист скоро свяжется с вами!</div>
+					<button data-close class="popup-gifts__button button">Ок</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220422115754"></script>
+
+</body>
+
+</html>
